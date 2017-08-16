@@ -1,0 +1,9 @@
+float64 latitude
+float64 longitude
+float64 altitude
+float64 heading
+float64 goal_latitude
+float64 goal_longitude
+bool emergency_stopped
+bool travelling
+bool waiting

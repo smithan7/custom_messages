@@ -1,0 +1,4 @@
+int32 start_node
+int32 end_node
+int32 edge
+float64 progress

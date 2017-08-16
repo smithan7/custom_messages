@@ -50,10 +50,11 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
-  Edge_Costs.msg
-  Nav_Goal.msg
-  Query_RAGS.msg
-  Scan_Goals.msg
+  Costmap_Bridge_Status_MSG.msg
+  Costmap_Bridge_Team_Map_Update_MSG.msg
+  DJI_Bridge_Status_MSG.msg
+  DJI_Bridge_Travel_Path_MSG.msg
+  DJI_Bridge_Travel_Speed_MSG.msg
 )
 
 
@@ -109,7 +110,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES custom_messages
-#  CATKIN_DEPENDS roscpp rospy std_msgs
+  CATKIN_DEPENDS roscpp rospy std_msgs message_runtime
 #  DEPENDS system_lib
 )
 
