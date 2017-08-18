@@ -7,3 +7,5 @@ float64 goal_longitude
 bool emergency_stopped
 bool travelling
 bool waiting
+float64 local_x
+float64 local_y
