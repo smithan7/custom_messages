@@ -1,0 +1,2 @@
+bool[] task_status
+

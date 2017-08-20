@@ -52,9 +52,12 @@ add_message_files(
   FILES
   Costmap_Bridge_Status_MSG.msg
   Costmap_Bridge_Team_Map_Update_MSG.msg
+  Costmap_Bridge_Travel_Path_MSG.msg
   DJI_Bridge_Status_MSG.msg
   DJI_Bridge_Travel_Path_MSG.msg
   DJI_Bridge_Travel_Speed_MSG.msg
+  Planner_Update_MSG.msg
+  Planner_Status_MSG.msg
 )
 
 
