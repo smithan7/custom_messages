@@ -1,4 +1,4 @@
-bool[] task_status
+int32[] completed_tasks
 float64 latitude
 float64 longitude
 float64 goal_latitude
