@@ -1,2 +1,3 @@
-float64[] latitudes
-float64[] longitudes
+float64[] local_xs
+float64[] local_ys
+float64 altitude
