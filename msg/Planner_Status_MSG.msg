@@ -3,6 +3,7 @@ float64 latitude
 float64 longitude
 float64 goal_latitude
 float64 goal_longitude
+int32 index
 bool emergency_stopped
 bool travelling
 bool waiting
