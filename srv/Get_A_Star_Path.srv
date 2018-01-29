@@ -1,0 +1,10 @@
+int32 start_x
+int32 start_y
+int32 goal_x
+int32 goal_y
+int32 map_num
+---
+bool success
+float64[] xs
+float64[] ys
+float64 path_length

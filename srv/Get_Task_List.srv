@@ -1,0 +1,6 @@
+bool f
+---
+int32[] node_indices
+float64[] xLoc
+float64[] yLoc
+float64[] reward

@@ -1,0 +1,9 @@
+int32 n_index
+float64 xLoc
+float64 yLoc
+int32 a_type
+float64 c_time
+float64 work_rate
+---
+float64 work_done
+float64 reward_collected

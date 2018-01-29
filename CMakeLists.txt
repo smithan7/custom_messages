@@ -53,6 +53,9 @@ add_message_files(
   Costmap_Bridge_Status_MSG.msg
   Costmap_Bridge_Team_Map_Update_MSG.msg
   Costmap_Bridge_Travel_Path_MSG.msg
+  DMCTS_Probability.msg
+  DMCTS_Travel_Goal.msg
+  DMCTS_Pulse.msg
   DJI_Bridge_Status_MSG.msg
   DJI_Bridge_Travel_Path_MSG.msg
   DJI_Bridge_Travel_Speed_MSG.msg
@@ -62,11 +65,14 @@ add_message_files(
 
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+add_service_files(
+  FILES
+  Get_Task_List.srv
+  Recieve_Agent_Locs.srv
+  Complete_Work.srv
+  Get_A_Star_Path.srv
+  Get_Kinematic_A_Star_Path.srv
+)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
