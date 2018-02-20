@@ -53,9 +53,15 @@ add_message_files(
   Costmap_Bridge_Status_MSG.msg
   Costmap_Bridge_Team_Map_Update_MSG.msg
   Costmap_Bridge_Travel_Path_MSG.msg
-  DMCTS_Probability.msg
+  DMCTS_Coordination.msg
   DMCTS_Travel_Goal.msg
   DMCTS_Pulse.msg
+  DMCTS_Loc.msg
+  DMCTS_Request_Work.msg
+  DMCTS_Work_Status.msg
+  DMCTS_Request_Task_List.msg
+  DMCTS_Task_List.msg
+  DMCTS_Coordination.msg
   DJI_Bridge_Status_MSG.msg
   DJI_Bridge_Travel_Path_MSG.msg
   DJI_Bridge_Travel_Speed_MSG.msg

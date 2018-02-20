@@ -1,10 +1,6 @@
 int32 index
 float64 xLoc
 float64 yLoc
-float64 alt
-float64 yaw
 int32 edge_x
 int32 edge_y
-int8 status
----
-bool f
+int32 status
