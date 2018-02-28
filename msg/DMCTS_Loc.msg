@@ -4,3 +4,4 @@ float64 yLoc
 int32 edge_x
 int32 edge_y
 int32 status
+int32[] path
